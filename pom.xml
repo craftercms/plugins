@@ -7,6 +7,7 @@
     <packaging>pom</packaging>
     <name>Plugins</name>
     <url>http://www.craftercms.org</url>
+    <version>2.5.2-SNAPSHOT</version>
 
     <parent>
         <groupId>org.sonatype.oss</groupId>
@@ -15,13 +16,130 @@
     </parent>
 
     <organization>
-        <name>CrafterCMS</name>
+        <name>Crafter CMS</name>
         <url>http://craftercms.org</url>
     </organization>
 
-   <modules>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Russ Danner</name>
+            <email>russ.danner@craftercms.org</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>1.7</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.test.sourceEncoding>UTF-8</project.test.sourceEncoding>
+    </properties>
+
+    <scm>
+        <connection>scm:git:git://github.com/craftercms/plugins</connection>
+        <developerConnection>scm:git:git://github.com/craftercms/plugins</developerConnection>
+        <url>scm:git:git://github.com/craftercms/plugins</url>
+    </scm>
+
+    <repositories>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <name>sonatype Snapshots</name>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+        </repository>
+    </repositories>
+
+    <build>
+        <finalName>${plugin-id}.car</finalName>
+
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>buildnumber-maven-plugin</artifactId>
+                <version>1.2</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>create</goal>
+                            <goal>create-timestamp</goal>
+
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <doCheck>false</doCheck>
+                    <doUpdate>false</doUpdate>
+                    <revisionOnScmFailure>unknown</revisionOnScmFailure>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <includeEmptyDirs>true</includeEmptyDirs>
+                    <resources>
+                        <resource>
+                            <directory>./resources/**</directory>
+                            <filtering>false</filtering>
+                        </resource>
+                    </resources>
+
+                    <archive>
+                        <manifest>
+                            <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+                        </manifest>
+                        <manifestEntries>
+                            <Implementation-Build>${buildNumber}</Implementation-Build>
+                            <Build-On>${timestamp}</Build-On>
+                            <plugin-name>${plugin-name}</plugin-name>
+                            <plugin-id>${plugin-id}</plugin-id>
+                            <plugin-version>${plugin-version}</plugin-version>
+                            <plugin-developer>${plugin-developer}</plugin-developer>
+                            <plugin-url>${plugin-url}</plugin-url>
+                            <plugin-license>${plugin-license}</plugin-license>
+                            <plugin-license-url>${plugin-license-utl}</plugin-license-url>
+                            <plugin-cost>${plugin-cost}</plugin-cost>
+                            <plugin-type>${plugin-type}</plugin-type>
+                            <plugin-compatility>${plugin-compatibility}</plugin-compatility>
+                            <plugin-class-name>${plugin-class-name}</plugin-class-name>
+                            <plugin-dependencies>${plugin-dependencies}</plugin-dependencies>                        </manifestEntries>
+                    </archive>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies></dependencies>
+
+    <modules>
         <module>world-population</module>
         <module>rich-text</module>
     </modules>
+
 
 </project>
