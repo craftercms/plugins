@@ -21,7 +21,7 @@
 
    <modules>
         <module>world-population</module>
-        <!--module>simple-webapp</module-->
+        <module>rich-text</module>
     </modules>
 
 </project>
