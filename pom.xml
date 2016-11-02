@@ -140,6 +140,7 @@
         <module>world-population</module>
         <module>rich-text</module>
         <module>hubspot-forms</module>
+        <module>hubspot-forms-studio</module>
         <module>user-forms</module>
     </modules>
 
