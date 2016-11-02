@@ -139,6 +139,8 @@
     <modules>
         <module>world-population</module>
         <module>rich-text</module>
+        <module>hubspot-forms</module>
+        <module>user-forms</module>
     </modules>
 
 
