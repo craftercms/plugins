@@ -31,7 +31,7 @@ CStudioForms.Datasources.HubspotForms = CStudioForms.Datasources.HubspotForms ||
 		};
 		
 		YAHOO.util.Connect.asyncRequest('GET',
-				"/api/1/services/studio/hubspot/get-forms.json",
+				"/studio/api/1/services/plugins/hubspot/get-forms.json",
 				cb);
 
         return this;
