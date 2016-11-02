@@ -6,7 +6,7 @@
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
     <script>
       hbspt.forms.create({
-        portalId: '277426',
+        portalId: '${hubspotPortalId}',
         formId: '${contentModel.formId!''}'
       });
     </script>
