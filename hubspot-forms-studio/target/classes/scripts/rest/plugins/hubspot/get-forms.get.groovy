@@ -1,6 +1,11 @@
+import scripts.api.SiteServices
+
 import groovy.json.JsonSlurper
 
-def hubspotAPIkey = siteConfig.getString("hubspotAPIkey")
+def context = SiteServices.createContext(applicationContext, request)
+def siteConfiguration = SiteServices.getConfiguration(context, params.site, "/site-config.xml", false)
+
+def hubspotAPIkey = siteConfiguration.hubspotAPIkey
 hubspotAPIkey = (hubspotAPIkey != null) ? hubspotAPIkey : "demo"
 
 def getFormsUrl = "https://api.hubapi.com/forms/v2/forms?hapikey="+hubspotAPIkey
