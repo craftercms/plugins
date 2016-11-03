@@ -142,6 +142,9 @@
         <module>hubspot-forms</module>
         <module>hubspot-forms-studio</module>
         <module>user-forms</module>
+        <module>blogs</module>
+        <module>bootstrap-layouts</module>
+        <module>sitemap</module>
     </modules>
 
 
