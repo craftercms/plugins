@@ -6,7 +6,7 @@
     <properties>		<property>
         <name>display-template</name>
         <label>Display Template</label>
-        <value>/templates/web/component-richtext.ftl</value>
+        <value>/templates/web/component-rich-text.ftl</value>
         <type>template</type>
     </property>
     </properties>
