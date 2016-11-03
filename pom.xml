@@ -145,6 +145,7 @@
         <module>blogs</module>
         <module>bootstrap-layouts</module>
         <module>sitemap</module>
+        <module>vanity-urls</module>
     </modules>
 
 
