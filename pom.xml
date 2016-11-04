@@ -148,6 +148,8 @@
         <module>sitemap</module>
         <module>vanity-urls</module>
         <module>alfresco-activiti</module>
+        <module>rss-feed</module>
+        <module>jquery-slider</module>
     </modules>
 
 
