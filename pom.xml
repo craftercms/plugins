@@ -151,6 +151,7 @@
         <module>rss-feed</module>
         <module>jquery-slider</module>
         <module>custom-error-pages</module>
+        <module>crafter-social</module>
     </modules>
 
 
