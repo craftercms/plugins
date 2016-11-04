@@ -1,6 +1,6 @@
-<content-type name="/component/population" is-wcm-type="true">
-<label>Component: Population</label>
-<form>/component/population</form>
+<content-type name="/component/rss-feed" is-wcm-type="true">
+<label>Component: RSS Feed</label>
+<form>/component/rss-feed</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>

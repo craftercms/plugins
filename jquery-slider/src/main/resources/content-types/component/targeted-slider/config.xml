@@ -1,6 +1,6 @@
-<content-type name="/component/population" is-wcm-type="true">
-<label>Component: Population</label>
-<form>/component/population</form>
+<content-type name="/component/targeted-slider" is-wcm-type="true">
+<label>Targeted Slider</label>
+<form>/component/targeted-slider</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>
@@ -8,9 +8,4 @@
 <previewable>false</previewable>
 <noThumbnail>true</noThumbnail>
 <image-thumbnail></image-thumbnail>
-    <paths>
-        <includes>
-            <pattern>^/site/components/page/.*</pattern>
-        </includes>
-    </paths>
 </content-type>

@@ -1,16 +1,16 @@
-<content-type name="/component/population" is-wcm-type="true">
-<label>Component: Population</label>
-<form>/component/population</form>
+<content-type name="/page/redirect" is-wcm-type="true">
+<label>Page: Redirect</label>
+<form>/page/redirect</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>
-<content-as-folder>false</content-as-folder>
-<previewable>false</previewable>
+<content-as-folder>true</content-as-folder>
+<previewable>true</previewable>
 <noThumbnail>true</noThumbnail>
 <image-thumbnail></image-thumbnail>
     <paths>
         <includes>
-            <pattern>^/site/components/page/.*</pattern>
+            <pattern>^/site/website/.*</pattern>
         </includes>
     </paths>
 </content-type>

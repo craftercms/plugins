@@ -126,7 +126,8 @@
                             <plugin-type>${plugin-type}</plugin-type>
                             <plugin-compatility>${plugin-compatibility}</plugin-compatility>
                             <plugin-class-name>${plugin-class-name}</plugin-class-name>
-                            <plugin-dependencies>${plugin-dependencies}</plugin-dependencies>                        </manifestEntries>
+                            <plugin-dependencies>${plugin-dependencies}</plugin-dependencies>
+                        </manifestEntries>
                     </archive>
 
                 </configuration>
@@ -145,6 +146,10 @@
         <module>blogs</module>
         <module>bootstrap-layouts</module>
         <module>sitemap</module>
+        <module>vanity-urls</module>
+        <module>alfresco-activiti</module>
+        <module>rss-feed</module>
+        <module>jquery-slider</module>
     </modules>
 
 
