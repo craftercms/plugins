@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>World Population</label>
+                <type>/component/population</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>
