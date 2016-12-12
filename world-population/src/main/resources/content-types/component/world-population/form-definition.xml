@@ -2,11 +2,11 @@
 	<title>Component: Population</title>
 	<description></description>
 	<objectType>component</objectType>
-	<content-type>/component/population</content-type>
+	<content-type>/component/world-population</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-population.ftl</value>
+			<value>/templates/plugins/world-population/component-population.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
