@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-3-col.ftl</value>
+			<value>/templates/plugins/bootstrap-layouts/component-3-col.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.craftercms</groupId>
-    <artifactId>user-form</artifactId>
+    <artifactId>user-forms</artifactId>
     <name>User Form Plugin for Crafter CMS</name>
     <packaging>jar</packaging>
 
@@ -20,8 +20,8 @@
     </organization>
 
     <properties>
-        <plugin-name>User Form</plugin-name>
-        <plugin-id>user-form</plugin-id>
+        <plugin-name>User Forms</plugin-name>
+        <plugin-id>user-forms</plugin-id>
         <plugin-version>1.0.0</plugin-version>
         <plugin-developer>Russ Danner/Crafter Software</plugin-developer>
         <plugin-url>https://github.com/craftercms/plugins/tree/master/user-form</plugin-url>

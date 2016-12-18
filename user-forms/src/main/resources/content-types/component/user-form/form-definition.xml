@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-user-form.ftl</value>
+			<value>/templates/plugins/user-forms/component-user-form.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

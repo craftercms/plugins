@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-rss-feed.ftl</value>
+			<value>/templates/plugins/rss-feed/component-rss-feed.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

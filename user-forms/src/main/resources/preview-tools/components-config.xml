@@ -2,8 +2,8 @@
    <category>
       <label>General</label>
       <component>
-                <label>World Population</label>
-                <type>/component/world-population</type>
+                <label>User Form</label>
+                <type>/component/user-form</type>
                 <path>/site/components/page</path>
       </component>
    </category>

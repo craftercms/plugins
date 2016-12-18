@@ -2,8 +2,8 @@
    <category>
       <label>General</label>
       <component>
-                <label>World Population</label>
-                <type>/component/world-population</type>
+                <label>Rich Text</label>
+                <type>/component/rich-text</type>
                 <path>/site/components/page</path>
       </component>
    </category>

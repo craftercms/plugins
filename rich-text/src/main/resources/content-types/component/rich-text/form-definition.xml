@@ -6,7 +6,7 @@
     <properties>		<property>
         <name>display-template</name>
         <label>Display Template</label>
-        <value>/templates/web/component-rich-text.ftl</value>
+        <value>/templates/plugins/rich-text/component-rich-text.ftl</value>
         <type>template</type>
     </property>
     </properties>
@@ -28,7 +28,6 @@
                 <constraints>
                 </constraints>
             </field>
-
             <field>
                 <type>rte</type>
                 <id>content_html</id>
@@ -85,7 +84,7 @@
                     </property>
                     <property>
                         <name>rteConfiguration</name>
-                        <value>black</value>
+                        <value>generic</value>
                         <type>string</type>
                     </property>
                     <property>
