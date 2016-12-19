@@ -1,22 +1,33 @@
-def queryStatement = 'content-type:"/component/blog" '
+def userQuery = (params.q != null) ? params.q : ""
 
-def query = searchService.createQuery()
-query = query.setQuery(queryStatement)
+def results = []
+def itemsFound = 0
 
-def executedQuery = searchService.search(query)
-def itemsFound = executedQuery.response.numFound
-def items = executedQuery.response.documents
+if(!"".equals(userQuery)) {
+    def queryStatement = 'crafterSite:"' + siteContext.siteName + '" AND content-type:"/page/*"'
 
-templateModel.blogItems = items
+    if(!"".equals(userQuery)) {
+        queryStatement += " AND *:"+userQuery
+    }
 
+    def query = searchService.createQuery()
+    query = query.setQuery(queryStatement)
 
-queryStatement = 'crafterSite:"' + siteContext.siteName + '" AND content-type:"/page/*" '
+    def executedQuery = searchService.search(query)
+    def items = executedQuery.response.documents
+    itemsFound = executedQuery.response.numFound
 
-query = searchService.createQuery()
-query = query.setQuery(queryStatement)
+    items.each { item ->
+        def result = [:]
 
-executedQuery = searchService.search(query)
-itemsFound = executedQuery.response.numFound
-items = executedQuery.response.documents
+        result.title = (item.title != null) ? item.title : item['internal-name']
+        result.link = item.localId.replace("/index.xml", "").replace("/site/website", "")
+        result.description = (item.body_html != null) ? item.body_html : (item.content_html != null) ? item.content_html : ""
 
-templateModel.pageItems = items
+        results.add(result)
+    }
+}
+
+templateModel.userQuery = userQuery
+templateModel.results = results
+templateModel.resultsFound = itemsFound
