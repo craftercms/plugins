@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/blog</content-type>	<display-template/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6e34</objectGroupId>
+	<objectId>6e342b87-2173-6e26-e91b-ea7938fb868f</objectId>
+	<file-name>6e342b87-2173-6e26-e91b-ea7938fb868f.xml</file-name>
+	<internal-name>Example Blog</internal-name>
+	<title>Example Blog</title>
+	<blogBody_html>&lt;h1&gt;This is an Example Blog&lt;/h1&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a arcu laoreet, tempor diam id, semper enim. Nullam congue odio vel finibus porta. Praesent in dignissim erat. Mauris lorem dolor, cursus ut nunc sed, bibendum scelerisque nunc. Nunc eu posuere metus. Fusce egestas risus id elit sodales, sit amet congue elit scelerisque. Phasellus sem odio, scelerisque at mattis non, laoreet a urna. Cras vulputate mauris id lacus bibendum, in posuere felis vulputate. In hendrerit turpis id nibh interdum ullamcorper. Donec laoreet est et erat semper tincidunt. Phasellus malesuada faucibus quam. Cras interdum viverra massa, quis elementum sapien mattis malesuada.&lt;/p&gt;
+&lt;p&gt;Praesent laoreet aliquam libero ac ultricies. Aenean tincidunt felis volutpat nisi feugiat luctus. Nunc rutrum tortor lacus, in posuere odio tempor eget. Aenean nec congue ex. Duis bibendum augue nec risus egestas semper sed vitae orci. In ac purus hendrerit, molestie lacus vitae, feugiat magna. Aenean eget leo ultrices, iaculis mi eget, vehicula justo. Mauris non facilisis nulla.&lt;/p&gt;
+&lt;p&gt;Curabitur id ipsum tincidunt, ultrices lectus eu, fermentum turpis. Mauris ullamcorper dignissim ligula id vulputate. Donec scelerisque erat id augue tempus placerat et a magna. Suspendisse eget posuere purus. Curabitur sollicitudin posuere mauris. Donec sodales felis vitae nisi congue, in mattis nisl facilisis. Donec aliquam justo justo, quis porta velit dapibus eget. Curabitur in pretium nulla. Duis malesuada condimentum sapien, id scelerisque felis consequat vel. Mauris at condimentum leo. Fusce rutrum sed metus faucibus varius. Sed dapibus nunc ac tortor ultricies sagittis.&lt;/p&gt;</blogBody_html>
+	<createdDate>12/18/2016 21:53:59</createdDate>
+	<createdDate_dt>12/18/2016 21:53:59</createdDate_dt>
+	<lastModifiedDate>12/18/2016 21:53:59</lastModifiedDate>
+	<lastModifiedDate_dt>12/18/2016 21:53:59</lastModifiedDate_dt>
+</component>

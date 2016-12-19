@@ -1,4 +1,5 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+<@controller path="/scripts/plugins/jquery-slider/targeted-slider.groovy" />
 
 <#if RequestParameters["c1v1"]??>
   <style>

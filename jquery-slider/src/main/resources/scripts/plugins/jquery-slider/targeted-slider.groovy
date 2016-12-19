@@ -6,7 +6,7 @@ profile = request.session.getAttribute("_cr_profile_state")
 def profileSegment = (profile) ? profile.get("segment") : "all"
 profileSegment = (profileSegment) ? profileSegment : "all"
 
-def queryStatement = ' ' +
+def queryStatement = 'crafterSite:"' + siteContext.siteName  + '" ' +
                      'AND content-type:"/component/slider-set" ' +
                      'AND ((segment.item.key:"' + profileSegment  + '")^10 OR segment.item.key:"all") '
 

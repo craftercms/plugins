@@ -1,7 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+<@controller path="/scripts/plugins/blog/blog-home.groovy" />
 
 <!DOCTYPE html>
-<!-- saved from url=(0029)http://www.sourceamerica.org/ -->
 <html>
 
   <head>

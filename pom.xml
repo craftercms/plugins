@@ -143,14 +143,16 @@
         <module>hubspot-forms</module>
         <module>hubspot-forms-studio</module>
         <module>user-forms</module>
-        <module>blogs</module>
         <module>bootstrap-layouts</module>
         <module>sitemap</module>
         <module>vanity-urls</module>
-        <module>alfresco-activiti</module>
         <module>rss-feed</module>
         <module>jquery-slider</module>
         <module>custom-error-pages</module>
+        <module>blogs</module>
+        <module>search-page</module>
+
+        <module>alfresco-activiti</module>
         <module>crafter-social</module>
     </modules>
 

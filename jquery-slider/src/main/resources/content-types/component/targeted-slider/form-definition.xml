@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-targeted-slider.ftl</value>
+			<value>/templates/plugins/jquery-slider/component-targeted-slider.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
