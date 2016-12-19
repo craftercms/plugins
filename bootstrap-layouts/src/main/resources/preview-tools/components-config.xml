@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>Three Col Layout</label>
+                <type>/component/3-col</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

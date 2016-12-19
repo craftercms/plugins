@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/page-blog-home.ftl</value>
+			<value>/templates/plugins/blog/page-blog-home.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

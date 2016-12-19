@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>User Form</label>
+                <type>/component/user-form</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

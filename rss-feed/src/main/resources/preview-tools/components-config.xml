@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>RSS Feed</label>
+                <type>/component/rss-feed</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

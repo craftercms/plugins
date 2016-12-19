@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/page-site-map.ftl</value>
+			<value>/templates/plugins/sitemap/page-site-map.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

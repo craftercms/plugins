@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>JQuery Targeted Slider</label>
+                <type>/component/targeted-slider</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

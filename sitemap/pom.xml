@@ -21,7 +21,7 @@
 
     <properties>
         <plugin-name>Sitemap</plugin-name>
-        <plugin-id>blog</plugin-id>
+        <plugin-id>sitemap</plugin-id>
         <plugin-version>1.0.0</plugin-version>
         <plugin-developer>Russ Danner/Crafter Software</plugin-developer>
         <plugin-url>https://github.com/craftercms/plugins/tree/master/sitemap</plugin-url>
