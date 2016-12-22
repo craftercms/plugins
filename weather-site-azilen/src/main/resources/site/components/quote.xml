@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/quote-ype</content-type>	<display-template>/templates/web/quote-comp.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9be4</objectGroupId>
+	<objectId>9be4dd30-88a7-9864-a37b-b7de7385f73e</objectId>
+	<file-name>quote.xml</file-name>
+	<folder-name/>
+	<internal-name>quote</internal-name>
+	<createdDate>9/29/2016 10:25:15</createdDate>
+	<createdDate_dt>9/29/2016 10:25:15</createdDate_dt>
+	<lastModifiedDate>9/29/2016 11:54:29</lastModifiedDate>
+	<lastModifiedDate_dt>9/29/2016 11:54:29</lastModifiedDate_dt>
+</component>

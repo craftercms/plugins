@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>de9b</objectGroupId>
+	<objectId>de9ba46f-92cb-694f-cce9-b6789df840f2</objectId>
+	<file-name>de9ba46f-92cb-694f-cce9-b6789df840f2.xml</file-name>
+	<internal-name>11</internal-name>
+	<imageTitle>India</imageTitle>
+	<description>Abstract</description>
+	<category>India</category>
+	<image>/static-assets/wallpaper/images/5.jpg</image>
+	<createdDate>9/29/2016 6:55:44</createdDate>
+	<createdDate_dt>9/29/2016 6:55:44</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:10:8</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:10:8</lastModifiedDate_dt>
+</component>

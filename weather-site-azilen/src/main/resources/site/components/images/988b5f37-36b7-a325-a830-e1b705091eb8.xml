@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>988b</objectGroupId>
+	<objectId>988b5f37-36b7-a325-a830-e1b705091eb8</objectId>
+	<file-name>988b5f37-36b7-a325-a830-e1b705091eb8.xml</file-name>
+	<internal-name>3</internal-name>
+	<imageTitle>Mountain</imageTitle>
+	<description>River</description>
+	<category>Mountain</category>
+	<image>/static-assets/wallpaper/images/15.jpg</image>
+	<createdDate>9/29/2016 6:47:10</createdDate>
+	<createdDate_dt>9/29/2016 6:47:10</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:11:36</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:11:36</lastModifiedDate_dt>
+</component>

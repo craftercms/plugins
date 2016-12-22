@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7200</objectGroupId>
+	<objectId>72000a5a-df5b-f40b-d719-cd6249dadb71</objectId>
+	<file-name>72000a5a-df5b-f40b-d719-cd6249dadb71.xml</file-name>
+	<internal-name>10</internal-name>
+	<imageTitle>India</imageTitle>
+	<description>Masjid</description>
+	<category>India</category>
+	<image>/static-assets/wallpaper/images/3.jpg</image>
+	<createdDate>9/29/2016 6:53:3</createdDate>
+	<createdDate_dt>9/29/2016 6:53:3</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:9:53</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:9:53</lastModifiedDate_dt>
+</component>

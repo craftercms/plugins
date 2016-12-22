@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>4c79</objectGroupId>
+	<objectId>4c799bc6-8834-4403-fc4e-180d17c463c3</objectId>
+	<file-name>4c799bc6-8834-4403-fc4e-180d17c463c3.xml</file-name>
+	<internal-name>12</internal-name>
+	<imageTitle>India</imageTitle>
+	<description>Taj Mahal</description>
+	<category>India</category>
+	<image>/static-assets/wallpaper/images/6.jpg</image>
+	<createdDate>9/29/2016 7:30:25</createdDate>
+	<createdDate_dt>9/29/2016 7:30:25</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:10:23</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:10:23</lastModifiedDate_dt>
+</component>
