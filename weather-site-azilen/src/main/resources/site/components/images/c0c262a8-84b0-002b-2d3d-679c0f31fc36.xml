@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c0c2</objectGroupId>
+	<objectId>c0c262a8-84b0-002b-2d3d-679c0f31fc36</objectId>
+	<file-name>c0c262a8-84b0-002b-2d3d-679c0f31fc36.xml</file-name>
+	<internal-name>4</internal-name>
+	<imageTitle>Mountain</imageTitle>
+	<description>Twilight</description>
+	<category>Mountain</category>
+	<image>/static-assets/wallpaper/images/14.jpg</image>
+	<createdDate>9/29/2016 6:47:48</createdDate>
+	<createdDate_dt>9/29/2016 6:47:48</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:11:50</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:11:50</lastModifiedDate_dt>
+</component>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6eed</objectGroupId>
+	<objectId>6eede7a5-f309-6d4a-7440-f877e03fc4b5</objectId>
+	<file-name>6eede7a5-f309-6d4a-7440-f877e03fc4b5.xml</file-name>
+	<internal-name>6</internal-name>
+	<imageTitle>Mountain</imageTitle>
+	<description>House</description>
+	<category>Mountain</category>
+	<image>/static-assets/wallpaper/images/11.jpg</image>
+	<createdDate>9/29/2016 6:50:12</createdDate>
+	<createdDate_dt>9/29/2016 6:50:12</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:12:19</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:12:19</lastModifiedDate_dt>
+</component>

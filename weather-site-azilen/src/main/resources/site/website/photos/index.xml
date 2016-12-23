@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/photos</content-type>	<display-template>/templates/web/images.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5a0d</objectGroupId>
+	<objectId>5a0dd6ab-de16-4bca-cd27-aaf3c9fe0f5e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>photos</folder-name>
+	<internal-name>photos</internal-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>5000</orderDefault_f>
+	<createdDate>9/29/2016 6:38:12</createdDate>
+	<createdDate_dt>9/29/2016 6:38:12</createdDate_dt>
+	<lastModifiedDate>9/29/2016 6:38:12</lastModifiedDate>
+	<lastModifiedDate_dt>9/29/2016 6:38:12</lastModifiedDate_dt>
+</page>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/weathertype</content-type>	<display-template>/templates/web/weathertemplate.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>dee0</objectGroupId>
+	<objectId>dee0f63a-eb45-c737-1427-8a719bc9a727</objectId>
+	<file-name>weather.xml</file-name>
+	<folder-name/>
+	<internal-name>weather</internal-name>
+	<createdDate>9/23/2016 5:34:24</createdDate>
+	<createdDate_dt>9/23/2016 5:34:24</createdDate_dt>
+	<lastModifiedDate>9/23/2016 5:34:24</lastModifiedDate>
+	<lastModifiedDate_dt>9/23/2016 5:34:24</lastModifiedDate_dt>
+</component>

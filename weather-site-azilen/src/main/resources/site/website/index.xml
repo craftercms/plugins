@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/entry</content-type>	<placeInNav>true</placeInNav>
+	<display-template>/templates/web/entry.ftl</display-template>
+	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
+	<placeInNav>false</placeInNav>
+	<file-name>index.xml</file-name>
+	<internal-name>Weather</internal-name>
+	<orderDefault_f>-1</orderDefault_f>
+	<objectGroupId>2604</objectGroupId>
+	<objectId>26048765-e1cf-dbd5-86da-54c080e9b4e3</objectId>
+	<folder-name/>
+	<createdDate>9/20/2016 10:18:6</createdDate>
+	<createdDate_dt>9/20/2016 10:18:6</createdDate_dt>
+	<lastModifiedDate>9/29/2016 8:21:15</lastModifiedDate>
+	<lastModifiedDate_dt>9/29/2016 8:21:15</lastModifiedDate_dt>
+	<imagegallery>	<item>	<key>/site/components/images/371c2da7-486a-07d0-e268-3a3250f2d3dd.xml</key>
+	<value>2</value>
+	<include>/site/components/images/371c2da7-486a-07d0-e268-3a3250f2d3dd.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/images/4c799bc6-8834-4403-fc4e-180d17c463c3.xml</key>
+	<value>12</value>
+	<include>/site/components/images/4c799bc6-8834-4403-fc4e-180d17c463c3.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item>	<key>/site/components/images/731ace9b-d4d7-f5f8-714a-7b1ab2451f11.xml</key>
+	<value>5</value>
+	<include>/site/components/images/731ace9b-d4d7-f5f8-714a-7b1ab2451f11.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></imagegallery>
+</page>

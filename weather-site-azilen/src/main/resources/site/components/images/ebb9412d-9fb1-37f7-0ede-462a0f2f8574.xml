@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ebb9</objectGroupId>
+	<objectId>ebb9412d-9fb1-37f7-0ede-462a0f2f8574</objectId>
+	<internal-name>1</internal-name>
+	<imageTitle>Mountain</imageTitle>
+	<description>Morning</description>
+	<category>Mountain</category>
+	<file-name>ebb9412d-9fb1-37f7-0ede-462a0f2f8574.xml</file-name>
+	<image>/static-assets/wallpaper/images/1.jpg</image>
+	<createdDate>9/29/2016 6:46:24</createdDate>
+	<createdDate_dt>9/29/2016 6:46:24</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:9:30</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:9:30</lastModifiedDate_dt>
+</component>

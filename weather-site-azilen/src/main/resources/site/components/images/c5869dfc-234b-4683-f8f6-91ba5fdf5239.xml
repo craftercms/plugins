@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>c586</objectGroupId>
+	<objectId>c5869dfc-234b-4683-f8f6-91ba5fdf5239</objectId>
+	<file-name>c5869dfc-234b-4683-f8f6-91ba5fdf5239.xml</file-name>
+	<internal-name>13</internal-name>
+	<imageTitle>India</imageTitle>
+	<description>Doors</description>
+	<category>India</category>
+	<image>/static-assets/wallpaper/images/7.jpg</image>
+	<createdDate>9/29/2016 6:53:51</createdDate>
+	<createdDate_dt>9/29/2016 6:53:51</createdDate_dt>
+	<lastModifiedDate>9/30/2016 10:1:7</lastModifiedDate>
+	<lastModifiedDate_dt>9/30/2016 10:1:7</lastModifiedDate_dt>
+</component>
