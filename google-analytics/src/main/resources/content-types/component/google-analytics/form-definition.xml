@@ -1,0 +1,64 @@
+<form>
+    <title>Component: Google Analytics</title>
+    <description></description>
+    <objectType>component</objectType>
+    <content-type>/component/google-analytics</content-type>
+    <properties>		<property>
+        <name>display-template</name>
+        <label>Display Template</label>
+        <value>/templates/plugins/google-analytics/component-google-analytics.ftl</value>
+        <type>template</type>
+    </property>
+    </properties>
+    <sections>		<section>
+        <title>Component Google Anayltics</title>
+        <description></description>
+        <defaultOpen>true</defaultOpen>
+        <fields>
+            <field>
+                <type>auto-filename</type>
+                <id>file-name</id>
+                <iceId></iceId>
+                <title>Component ID</title>
+                <description></description>
+                <defaultValue></defaultValue>
+                <help></help>
+                <properties>
+                </properties>
+                <constraints>
+                </constraints>
+            </field>
+            <field>
+                <type>input</type>
+                <id>googleId</id>
+                <iceId></iceId>
+                <title>Google Site ID</title>
+                <description></description>
+                <defaultValue></defaultValue>
+                <help></help>
+                <properties>
+                </properties>
+                <constraints>
+                </constraints>
+            </field>
+            <field>
+                <type>input</type>
+                <id>googleSiteName</id>
+                <iceId></iceId>
+                <title>Site Name</title>
+                <description></description>
+                <defaultValue></defaultValue>
+                <help></help>
+                <properties>
+                </properties>
+                <constraints>
+                </constraints>
+            </field>
+
+
+        </fields>
+    </section>
+    </sections>
+    <datasources>
+    </datasources>
+</form>

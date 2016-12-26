@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-crafter-social-comments.ftl</value>
+			<value>/templates/plugins/crafter-social-comments/component-crafter-social-comments.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

@@ -155,7 +155,7 @@
         <module>weather-site-azilen</module>
         <module>alfresco-activiti</module>
         <module>social-sharing</module>
-
+        <module>google-analytics</module>
         <module>crafter-social</module>
     </modules>
 

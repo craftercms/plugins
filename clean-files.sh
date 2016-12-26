@@ -13,3 +13,5 @@ mv ./weather-site-azilen/target/weather-site-azilen.car.jar  ./weather-site-azil
 mv ./alfresco-activiti/target/alfresco-activiti.car.jar      ./alfresco-activiti/target/alfresco-activiti.car 
 mv ./dynamic-navigation/target/dynamic-navigation.car.jar    ./dynamic-navigation/target/dynamic-navigation.car 
 mv ./social-sharing/target/social-sharing.car.jar            ./social-sharing/target/social-sharing.car 
+mv ./google-analytics/target/google-analytics.car.jar        ./google-analytics/target/google-analytics.car 
+mv ./crafter-social/target/crafter-social.car.jar            ./crafter-social/target/crafter-social.car 
