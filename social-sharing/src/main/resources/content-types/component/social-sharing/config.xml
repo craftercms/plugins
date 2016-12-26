@@ -1,6 +1,6 @@
 <content-type name="/component/rich-text" is-wcm-type="true">
-<label>Component: Rich Text</label>
-<form>/component/rich-text</form>
+<label>Component: Social Sharing</label>
+<form>/component/social-sharing</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>

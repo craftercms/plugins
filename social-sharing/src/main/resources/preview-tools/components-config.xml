@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>Social Sharing</label>
+                <type>/component/social-sharing</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

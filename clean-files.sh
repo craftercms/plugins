@@ -12,3 +12,4 @@ mv ./search-page/target/search-page.car.jar                  ./search-page/targe
 mv ./weather-site-azilen/target/weather-site-azilen.car.jar  ./weather-site-azilen/target/weather-site-azilen.car 
 mv ./alfresco-activiti/target/alfresco-activiti.car.jar      ./alfresco-activiti/target/alfresco-activiti.car 
 mv ./dynamic-navigation/target/dynamic-navigation.car.jar    ./dynamic-navigation/target/dynamic-navigation.car 
+mv ./social-sharing/target/social-sharing.car.jar            ./social-sharing/target/social-sharing.car 
