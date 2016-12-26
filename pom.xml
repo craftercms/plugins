@@ -154,6 +154,7 @@
         <module>dynamic-navigation</module>
         <module>weather-site-azilen</module>
         <module>alfresco-activiti</module>
+        <module>social-sharing</module>
 
         <module>crafter-social</module>
     </modules>
