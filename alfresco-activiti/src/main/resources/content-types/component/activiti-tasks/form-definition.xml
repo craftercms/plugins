@@ -6,7 +6,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/component-activiti-tasks.ftl</value>
+			<value>/templates/web/plugins/alfresco-activiti/component-activiti-tasks.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

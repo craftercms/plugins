@@ -1,6 +1,6 @@
-<content-type name="/component/activiti-tasks" is-wcm-type="true">
-<label>Component / Form </label>
-<form>/component/activiti-tasks</form>
+<content-type name="/component/dynamic-navigation" is-wcm-type="true">
+<label>Component: Dynamic Navigation</label>
+<form>/component/dynamic-navigation</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>
@@ -8,9 +8,9 @@
 <previewable>false</previewable>
 <noThumbnail>false</noThumbnail>
 <image-thumbnail>image.jpg</image-thumbnail>
-    <paths>
-        <includes>
-            <pattern>^/site/website/.*</pattern>
-        </includes>
-    </paths>
+<paths>
+<includes>
+<pattern>^/site/components/page/.*</pattern>
+</includes>
+</paths>
 </content-type>

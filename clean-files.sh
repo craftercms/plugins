@@ -10,3 +10,5 @@ mv ./jquery-slider/target/jquery-slider.car.jar              ./jquery-slider/tar
 mv ./blogs/target/blog.car.jar                               ./blogs/target/blog.car 
 mv ./search-page/target/search-page.car.jar                  ./search-page/target/search-page.car 
 mv ./weather-site-azilen/target/weather-site-azilen.car.jar  ./weather-site-azilen/target/weather-site-azilen.car 
+mv ./alfresco-activiti/target/alfresco-activiti.car.jar      ./alfresco-activiti/target/alfresco-activiti.car 
+mv ./dynamic-navigation/target/dynamic-navigation.car.jar    ./dynamic-navigation/target/dynamic-navigation.car 
