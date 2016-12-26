@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>Dynamic Navigation</label>
+                <type>/component/dynamic-navigation</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

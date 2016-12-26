@@ -20,11 +20,11 @@
 		<script>
 			var crafterActiviti = {
 				urls: {
-					GET_PROC_DEFS:  "/api/1/services/activiti/1/get-process-defs.json",
-					GET_START_PROC: "/api/1/services/activiti/1/start-process.json",
-					GET_TASKS:      "/api/1/services/activiti/1/get-tasks.json",
-					GET_TASK_FORM:  "/api/1/services/activiti/1/get-form-def.json",
-					POST_TASK_FORM: "/api/1/services/activiti/1/submit-form.json"
+					GET_PROC_DEFS:  "/api/1/services/plugins/alfresco-activiti/get-process-defs.json",
+					GET_START_PROC: "/api/1/services/plugins/alfresco-activiti/start-process.json",
+					GET_TASKS:      "/api/1/services/plugins/alfresco-activiti/get-tasks.json",
+					GET_TASK_FORM:  "/api/1/services/plugins/alfresco-activiti/get-form-def.json",
+					POST_TASK_FORM: "/api/1/services/plugins/alfresco-activiti/submit-form.json"
 				}
 			}
 

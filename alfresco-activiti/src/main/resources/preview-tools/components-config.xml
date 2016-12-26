@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>Alfresco Activiti Tasks</label>
+                <type>/component/activiti-tasks</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

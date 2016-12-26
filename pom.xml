@@ -151,9 +151,10 @@
         <module>custom-error-pages</module>
         <module>blogs</module>
         <module>search-page</module>
+        <module>dynamic-navigation</module>
         <module>weather-site-azilen</module>
-
         <module>alfresco-activiti</module>
+
         <module>crafter-social</module>
     </modules>
 
