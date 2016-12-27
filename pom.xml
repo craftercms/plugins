@@ -158,6 +158,7 @@
         <module>google-analytics</module>
         <module>crafter-social</module>
         <module>profile</module>
+        <module>twitterfeed</module>
     </modules>
 
 
