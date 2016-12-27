@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
 	<content-type>/page/search</content-type>
-	<display-template>/templates/plugins/profile-page/page-profile-page.ftl</display-template>
+	<display-template>/templates/plugins/profile/page-profile-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>cfaf</objectGroupId>
 	<objectId>cfaf054f-0721-33fc-b6fe-9a3cd01c59a9</objectId>

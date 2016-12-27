@@ -63,11 +63,11 @@ public class ProfileServices {
 
                 if(crafterProfile != null) {
                     def cpProfileId        = ""+crafterProfile.getId()
-                    def cpPreferredName    = crafterProfile.getAttributes().get("marPreferredName")
-                    def cpOfficePhone      = crafterProfile.getAttributes().get("marOfficePhone")
-                    def cpMobilePhone      = crafterProfile.getAttributes().get("marMobilePhone")
-                    def cpSkypeId          = crafterProfile.getAttributes().get("marSkypeId")
-                    def cpLinkedInId       = crafterProfile.getAttributes().get("marLinkedInId")
+                    def cpPreferredName    = crafterProfile.getAttributes().get("preferredName")
+                    def cpOfficePhone      = crafterProfile.getAttributes().get("officePhone")
+                    def cpMobilePhone      = crafterProfile.getAttributes().get("mobilePhone")
+                    def cpSkypeId          = crafterProfile.getAttributes().get("skypeId")
+                    def cpLinkedInId       = crafterProfile.getAttributes().get("linkedInId")
 
 
                     if(cpProfileId        != null && !"".equals(cpProfileId))         profileTo.setCrafterProfileId(cpProfileId)
@@ -207,12 +207,12 @@ public class ProfileServices {
             if(crafterProfile!=null) {
                 java.util.Map<String, Object> profileAttributes = new java.util.HashMap<String, Object>()
 
-                if(profileTo.getTitle() != null)            profileAttributes.put("marTitle",            profileTo.getTitle())
-                if(profileTo.getPreferredName() != null)    profileAttributes.put("marPreferredName",    profileTo.getPreferredName())
-                if(profileTo.getOfficePhone() != null)      profileAttributes.put("marOfficePhone",      profileTo.getOfficePhone())
-                if(profileTo.getMobilePhone() != null)      profileAttributes.put("marMobilePhone",      profileTo.getMobilePhone())
-                if(profileTo.getSkypeId() != null)          profileAttributes.put("marSkypeId",          profileTo.getSkypeId())
-                if(profileTo.getLinkedInId() != null)       profileAttributes.put("marLinkedInId",       profileTo.getLinkedInId())
+                if(profileTo.getTitle() != null)            profileAttributes.put("itle",            profileTo.getTitle())
+                if(profileTo.getPreferredName() != null)    profileAttributes.put("referredName",    profileTo.getPreferredName())
+                if(profileTo.getOfficePhone() != null)      profileAttributes.put("officePhone",      profileTo.getOfficePhone())
+                if(profileTo.getMobilePhone() != null)      profileAttributes.put("mobilePhone",      profileTo.getMobilePhone())
+                if(profileTo.getSkypeId() != null)          profileAttributes.put("skypeId",          profileTo.getSkypeId())
+                if(profileTo.getLinkedInId() != null)       profileAttributes.put("linkedInId",       profileTo.getLinkedInId())
 
                 def profileId = ""+crafterProfile.getId()
                 System.out.println("UPDATING PROFILE WITH EMAIL ADDRESS " + profileTo.getEmail())
