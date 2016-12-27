@@ -1,5 +1,5 @@
 
-import scripts.crafter.ext.activiti.Activiti
+import  scripts.plugins.alfresco.activiti
 
 import groovy.json.JsonSlurper
 

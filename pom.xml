@@ -160,6 +160,7 @@
         <module>profile</module>
         <module>twitterfeed</module>
         <module>youtube-video</module>
+        <module>qr-code</module>
 
         <!--
           studio api client

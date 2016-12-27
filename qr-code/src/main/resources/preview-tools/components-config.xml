@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>QR Code</label>
+                <type>/component/qr-code</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

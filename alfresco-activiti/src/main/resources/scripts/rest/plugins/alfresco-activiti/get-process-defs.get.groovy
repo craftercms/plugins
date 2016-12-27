@@ -1,4 +1,4 @@
-import scripts.crafter.ext.activiti.Activiti
+import  scripts.plugins.alfresco.activiti.Activiti
 
 def activitiUserName = null
 def activitiPassword = null
