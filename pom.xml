@@ -159,6 +159,34 @@
         <module>crafter-social</module>
         <module>profile</module>
         <module>twitterfeed</module>
+        <module>youtube-video</module>
+
+        <!--
+          studio api client
+          alfresco document picker
+          alfresco studio workflow/rules
+          activiti tasks
+          maps
+          events
+          translation
+          hubspot
+          salesforce
+          quotes
+          company locations / contact us
+          video
+          video gallery
+          faq/faq page
+          docusign
+          targeting support
+          weather forecast
+          forums
+          notifications
+          SAML2
+          SITEMINDER
+          Facebook login
+          Profile Login
+          -->
+
     </modules>
 
 
