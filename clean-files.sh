@@ -16,3 +16,4 @@ mv ./social-sharing/target/social-sharing.car.jar            ./social-sharing/ta
 mv ./google-analytics/target/google-analytics.car.jar        ./google-analytics/target/google-analytics.car 
 mv ./crafter-social/target/crafter-social.car.jar            ./crafter-social/target/crafter-social.car 
 mv ./profile/target/profile.car.jar                          ./profile/target/profile.car 
+mv ./twitterfeed/target/twitterfeed.car.jar                  ./twitterfeed/target/twitterfeed.car 
