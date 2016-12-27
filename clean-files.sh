@@ -18,3 +18,4 @@ mv ./crafter-social/target/crafter-social.car.jar            ./crafter-social/ta
 mv ./profile/target/profile.car.jar                          ./profile/target/profile.car 
 mv ./twitterfeed/target/twitterfeed.car.jar                  ./twitterfeed/target/twitterfeed.car 
 mv ./youtube-video/target/youtube-video.car.jar              ./youtube-video/target/youtube-video.car 
+mv ./qr-code/target/qr-code.car.jar                          ./qr-code/target/qr-code.car 

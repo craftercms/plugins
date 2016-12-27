@@ -3,9 +3,9 @@ import java.net.*
 
 def news = []
 def result = [:]
-//def key = siteConfig.getString("newsApiKey"
 
-def key = "535a601896d24665a8eb934239f2634a"
+
+def key = siteConfig.getString("newsApiKey")
 logger.debug("Api Key= "+key)
 
 def newsSource = params.newsSourceVal

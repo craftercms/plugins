@@ -1,4 +1,4 @@
-package scripts.crafter.ext.activiti
+package scripts.plugins.alfresco.activiti
 
 @Grab('org.codehaus.groovy.modules.http-builder:http-builder:0.7')
 @Grab('oauth.signpost:signpost-core:1.2.1.2')
