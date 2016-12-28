@@ -1,0 +1,10 @@
+<config>
+   <category>
+      <label>General</label>
+      <component>
+                <label>Google Map</label>
+                <type>/component/google-map</type>
+                <path>/site/components/page</path>
+      </component>
+   </category>
+</config>

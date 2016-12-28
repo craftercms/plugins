@@ -161,13 +161,13 @@
         <module>twitterfeed</module>
         <module>youtube-video</module>
         <module>qr-code</module>
+        <module>google-maps</module>
 
         <!--
           studio api client
           alfresco document picker
           alfresco studio workflow/rules
           activiti tasks
-          maps
           events
           translation
           hubspot
