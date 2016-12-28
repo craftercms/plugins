@@ -162,6 +162,7 @@
         <module>youtube-video</module>
         <module>qr-code</module>
         <module>google-maps</module>
+        <module>quote</module>
 
         <!--
           studio api client
