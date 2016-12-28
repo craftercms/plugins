@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.craftercms</groupId>
+    <artifactId>quote</artifactId>
+    <name>Quote</name>
+    <packaging>jar</packaging>
+
+
+    <parent>
+        <groupId>org.craftercms</groupId>
+        <artifactId>Plugins</artifactId>
+        <version>2.5.2-SNAPSHOT</version>
+    </parent>
+
+    <organization>
+        <name>Crafter CMS</name>
+        <url>http://craftercms.org</url>
+    </organization>
+
+    <properties>
+        <plugin-name>Quote</plugin-name>
+        <plugin-id>quote</plugin-id>
+        <plugin-version>1.0.0</plugin-version>
+        <plugin-developer>Russ Danner/Crafter Software</plugin-developer>
+        <plugin-url>https://github.com/craftercms/plugins/tree/master/quote</plugin-url>
+        <plugin-license>Apache License 2.0</plugin-license>
+        <plugin-license-url>http://apache.com/2.0</plugin-license-url>
+        <plugin-cost>0</plugin-cost>
+        <plugin-type>SITE-COMPONENT</plugin-type>
+        <plugin-compatility>2.5.0</plugin-compatility>
+        <plugin-class-name>NONE</plugin-class-name>
+        <plugin-dependencies>NONE</plugin-dependencies>
+    </properties>
+
+</project>
