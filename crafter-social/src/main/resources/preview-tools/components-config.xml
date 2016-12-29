@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Crafter Social Comments</label>
-                <type>/component/crafter-social-comments</type>
+                <type>/plugins/crafter-social/crafter-social-comments</type>
                 <path>/site/components/page</path>
       </component>
    </category>

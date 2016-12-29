@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>World Population</label>
-                <type>/component/world-population</type>
+                <type>/plugins/world-population/world-population</type>
                 <path>/site/components/page</path>
       </component>
    </category>

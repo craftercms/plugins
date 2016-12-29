@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Twitter Feed</label>
-                <type>/component/twitterfeed</type>
+                <type>/plugins/twitterfeed/twitterfeed</type>
                 <path>/site/components/page</path>
       </component>
    </category>

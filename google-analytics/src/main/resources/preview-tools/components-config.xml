@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Google Analytics</label>
-                <type>/component/google-analytics</type>
+                <type>/plugins/google-analytics/google-analytics</type>
                 <path>/site/components/page</path>
       </component>
    </category>

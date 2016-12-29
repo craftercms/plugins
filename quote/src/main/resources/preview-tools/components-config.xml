@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Personal Quote</label>
-                <type>/component/quote</type>
+                <type>/plugins/quote/quote</type>
                 <path>/site/components/page</path>
       </component>
    </category>

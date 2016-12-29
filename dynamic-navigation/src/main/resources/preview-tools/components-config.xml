@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Dynamic Navigation</label>
-                <type>/component/dynamic-navigation</type>
+                <type>/plugins/dynamic-navigation/dynamic-navigation</type>
                 <path>/site/components/page</path>
       </component>
    </category>

@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Social Sharing</label>
-                <type>/component/social-sharing</type>
+                <type>/plugins/social-sharing/share-this</type>
                 <path>/site/components/page</path>
       </component>
    </category>
