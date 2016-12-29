@@ -1,7 +1,7 @@
 /**
  * ideally we would use the tree query method here but there is an NPE atm
  */
-def queryStatement = 'content-type:"/component/blog" '
+def queryStatement = 'content-type:"/plugins/blogs/blog" '
 
 def query = searchService.createQuery()
 query = query.setQuery(queryStatement)

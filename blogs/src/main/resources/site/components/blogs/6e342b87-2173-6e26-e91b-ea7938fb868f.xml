@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/blog</content-type>	<display-template/>
+	<content-type>/plugins/blogs/blog</content-type>	<display-template/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>6e34</objectGroupId>
 	<objectId>6e342b87-2173-6e26-e91b-ea7938fb868f</objectId>
