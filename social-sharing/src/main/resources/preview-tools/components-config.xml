@@ -2,7 +2,7 @@
    <category>
       <label>General</label>
       <component>
-                <label>Social Sharing</label>
+                <label>Share This</label>
                 <type>/plugins/social-sharing/share-this</type>
                 <path>/site/components/page</path>
       </component>

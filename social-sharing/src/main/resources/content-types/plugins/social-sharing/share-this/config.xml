@@ -1,5 +1,5 @@
 <content-type name="/plugins/social-sharing/share-this" is-wcm-type="true">
-<label>Component: Social Sharing</label>
+<label>Component: Share This</label>
 <form>/plugins/social-sharing/share-this</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>

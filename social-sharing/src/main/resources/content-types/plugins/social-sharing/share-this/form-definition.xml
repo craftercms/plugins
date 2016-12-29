@@ -1,5 +1,5 @@
 <form>
-    <title>Component: Social Sharing</title>
+    <title>Component: Share This</title>
     <description></description>
     <objectType>component</objectType>
     <content-type>/plugins/social-sharing/share-this</content-type>
@@ -11,7 +11,7 @@
     </property>
     </properties>
     <sections>		<section>
-        <title>Component: Social Sharing</title>
+        <title>Share This</title>
         <description></description>
         <defaultOpen>true</defaultOpen>
         <fields>

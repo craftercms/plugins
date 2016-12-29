@@ -1,4 +1,4 @@
-def queryStatement = 'content-type:"/component/blog" '
+def queryStatement = 'crafterSite:"' + siteContext.siteName + '" AND content-type:"/plugins/blogs/blog" '
 
 def query = searchService.createQuery()
 query = query.setQuery(queryStatement)
