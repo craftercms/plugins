@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>RSS Feed</label>
-                <type>/component/rss-feed</type>
+                <type>/plugins/rss-feed/rss-feed</type>
                 <path>/site/components/page</path>
       </component>
    </category>

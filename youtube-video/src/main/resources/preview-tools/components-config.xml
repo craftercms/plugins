@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>YouTube Video</label>
-                <type>/component/youtube-video</type>
+                <type>/plugins/youtube-video/youtube-video</type>
                 <path>/site/components/page</path>
       </component>
    </category>

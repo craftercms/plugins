@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/search</content-type>
+	<content-type>/plugins/search-page/search-page</content-type>
 	<display-template>/templates/plugins/search-page/page-search-page.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>cfaf</objectGroupId>

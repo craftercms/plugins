@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>User Form</label>
-                <type>/component/user-form</type>
+                <type>/plugins/user-forms/user-form</type>
                 <path>/site/components/page</path>
       </component>
    </category>

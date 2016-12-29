@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>JQuery Targeted Slider</label>
-                <type>/component/targeted-slider</type>
+                <type>/plugins/jquery-slider/targeted-slider</type>
                 <path>/site/components/page</path>
       </component>
    </category>

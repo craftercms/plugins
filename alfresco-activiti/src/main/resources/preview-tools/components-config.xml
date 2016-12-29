@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Alfresco Activiti Tasks</label>
-                <type>/component/activiti-tasks</type>
+                <type>/plugins/alfresco-activiti/activiti-tasks</type>
                 <path>/site/components/page</path>
       </component>
    </category>

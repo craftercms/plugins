@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>Rich Text</label>
-                <type>/component/rich-text</type>
+                <type>/plugins/rich-text/rich-text</type>
                 <path>/site/components/page</path>
       </component>
    </category>
