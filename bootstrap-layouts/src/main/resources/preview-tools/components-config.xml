@@ -1,10 +1,35 @@
 <config>
    <category>
       <label>General</label>
-      <component>
-                <label>Three Col Layout</label>
-                <type>/component/3-col</type>
-                <path>/site/components/page</path>
-      </component>
+       <component>
+           <label>Section Layout</label>
+           <type>/plugins/bootstrap-layouts/section</type>
+           <path>/site/components/page</path>
+       </component>
+
+       <component>
+           <label>Two Col Layout</label>
+           <type>/plugins/bootstrap-layouts/2-col</type>
+           <path>/site/components/page</path>
+       </component>
+
+       <component>
+           <label>Three Col Layout</label>
+           <type>/plugins/bootstrap-layouts/3-col</type>
+           <path>/site/components/page</path>
+       </component>
+
+       <component>
+           <label>Four Col Layout</label>
+           <type>/plugins/bootstrap-layouts/4-col</type>
+           <path>/site/components/page</path>
+       </component>
+
+       <component>
+           <label>Five Col Layout</label>
+           <type>/plugins/bootstrap-layouts/5-col</type>
+           <path>/site/components/page</path>
+       </component>
+
    </category>
 </config>

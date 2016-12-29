@@ -3,7 +3,7 @@
       <label>General</label>
       <component>
                 <label>QR Code</label>
-                <type>/component/qr-code</type>
+                <type>/plugins/qr-code/qr-code</type>
                 <path>/site/components/page</path>
       </component>
    </category>
