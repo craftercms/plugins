@@ -17,10 +17,10 @@
 	<lastModifiedDate>12/29/2016 5:35:58</lastModifiedDate>
 	<lastModifiedDate_dt>12/29/2016 5:35:58</lastModifiedDate_dt>
 	<ftlCode></ftlCode>
-	<scripts>	<item>	<path>/static-assets/js/jquery.core.js</path>
+	<scripts>	<!-- item>	<path>/static-assets/js/jquery.core.js</path>
 	<enabled_b>true</enabled_b>
 	<location>Top</location>
-	</item>	<item>	<path>/static-assets/plugins/qr-code/scripts/jquery.qrcode.js</path>
+	</item-->	<item>	<path>/static-assets/plugins/qr-code/scripts/jquery.qrcode.js</path>
 	<enabled_b>true</enabled_b>
 	<location>Top</location>
 	</item>	<item>	<path>/static-assets/plugins/qr-code/scripts/qrcode.js</path>

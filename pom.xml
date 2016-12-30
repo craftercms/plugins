@@ -163,6 +163,7 @@
         <module>qr-code</module>
         <module>google-maps</module>
         <module>quote</module>
+        <!--module>theme-canvas</module-->
 
         <!--
           studio api client
@@ -173,9 +174,8 @@
           translation
           hubspot
           salesforce
-          quotes
           company locations / contact us
-          video
+          mp4 (non youtube) video
           video gallery
           faq/faq page
           docusign

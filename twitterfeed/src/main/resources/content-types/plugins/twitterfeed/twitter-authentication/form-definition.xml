@@ -38,7 +38,7 @@
 					<type>input</type>
 					<id>internal-name</id>
 					<iceId></iceId>
-					<title>Twitter Feed Name</title>
+					<title>Twitter App Name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
