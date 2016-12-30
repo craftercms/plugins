@@ -23,4 +23,5 @@ mv ./twitterfeed/target/twitterfeed.car.jar                  ./plugin-bins/twitt
 mv ./youtube-video/target/youtube-video.car.jar              ./plugin-bins/youtube-video.car 
 mv ./qr-code/target/qr-code.car.jar                          ./plugin-bins/qr-code.car 
 mv ./google-maps/target/google-maps.car.jar                  ./plugin-bins/google-maps.car 
-mv ./quote/target/quote.car.jar                  ./plugin-bins/quote.car 
+mv ./quote/target/quote.car.jar                              ./plugin-bins/quote.car 
+mv ./theme-canvas/target/theme-canvas.car.jar                ./plugin-bins/theme-canvas.car 
