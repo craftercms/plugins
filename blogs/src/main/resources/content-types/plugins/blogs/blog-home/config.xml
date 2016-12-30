@@ -1,6 +1,6 @@
-<content-type name="/page/blog-home" is-wcm-type="true">
+<content-type name="/plugins/blogs/blog-home" is-wcm-type="true">
 <label>Page: Blog Home</label>
-<form>/page/blog-home</form>
+<form>/plugins/blogs/blog-home</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 <file-extension>xml</file-extension>

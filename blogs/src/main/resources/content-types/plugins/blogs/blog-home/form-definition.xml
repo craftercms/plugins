@@ -2,7 +2,7 @@
 	<title>Page: Blog Home</title>
 	<description></description>
 	<objectType>page</objectType>
-	<content-type>/page/blog-home</content-type>
+	<content-type>/plugins/blogs/blog-home</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
