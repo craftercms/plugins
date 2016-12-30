@@ -11,25 +11,47 @@ import twitter4j.conf.ConfigurationBuilder
 
 def feedId = contentModel.queryValue("feedId")
 def itemsPerPage = contentModel.queryValue("itemsPerPage_i").toInteger()
+def authenticationDescriptorId = contentModel.queryValue("authentication/item/key")
 
-def consumerKey = siteConfig.getString("twitter.consumerKey")
-def consumerSecret = siteConfig.getString("twitter.consumerSecret")
-def accessKey = siteConfig.getString("twitter.accessKey")
-def accessSecret = siteConfig.getString("twitter.accessSecret")
+if(authenticationDescriptorId) {
+    def authDescriptor = siteItemService.getSiteItem(authenticationDescriptorId)
 
-ConfigurationBuilder cb = new ConfigurationBuilder()
+    if(authDescriptor) {
 
-cb.setDebugEnabled(false)
-cb.setOAuthConsumerKey(consumerKey)
-cb.setOAuthConsumerSecret(consumerSecret)
-cb.setOAuthAccessToken(accessKey)
-cb.setOAuthAccessTokenSecret(accessSecret)
+        try {
+            def consumerKey = authDescriptor.queryValue("consumerKey")
+            def consumerSecret = authDescriptor.queryValue("consumerSecret")
+            def accessKey = authDescriptor.queryValue("accessKey")
+            def accessSecret = authDescriptor.queryValue("accessSecret")
 
-TwitterFactory tf = new TwitterFactory(cb.build())
-Twitter twitter = tf.getInstance()
+            ConfigurationBuilder cb = new ConfigurationBuilder()
 
-Paging paging = new Paging(1, itemsPerPage)
+            cb.setDebugEnabled(false)
+            cb.setOAuthConsumerKey(consumerKey)
+            cb.setOAuthConsumerSecret(consumerSecret)
+            cb.setOAuthAccessToken(accessKey)
+            cb.setOAuthAccessTokenSecret(accessSecret)
 
-List<Status> statuses = twitter.getUserTimeline(feedId, paging)
+            //logger.info("[${consumerKey}] [${consumerSecret}] [${accessKey}] [${accessSecret}] ")
 
-templateModel.feed = statuses
+            TwitterFactory tf = new TwitterFactory(cb.build())
+            Twitter twitter = tf.getInstance()
+
+            Paging paging = new Paging(1, itemsPerPage)
+
+            List<Status> statuses = twitter.getUserTimeline(feedId, paging)
+            templateModel.feed = (statuses) ? statuses : []
+        }
+        catch(err) {
+            templateModel.errorMessage = "Unabled to retrieve feed "
+            logger.error("Feed retrieval failed: ", err)
+        }
+    }
+    else {
+        templateModel.errorMessage = "Unabled to retrieve feed "
+        logger.error("Feed retrieval failed, unable to load auth item (${authenticationDescriptorId})")
+    }
+}
+else {
+    templateModel.errorMessage = "Please configure authentication for feed."
+}
