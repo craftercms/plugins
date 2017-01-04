@@ -1,12 +1,12 @@
 <form>
-	<title>QuoteType</title>
+	<title>Quote Component</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/plugins/weather-site-azilen/quote-ype</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/quote-comp.ftl</value>
+			<value>/templates/plugins/weather-site-azilen/quote-comp.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

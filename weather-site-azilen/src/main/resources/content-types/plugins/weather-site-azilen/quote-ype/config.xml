@@ -1,5 +1,5 @@
 <content-type name="/plugins/weather-site-azilen/quote-ype" is-wcm-type="true">
-<label>QuoteType</label>
+<label>Quote Component</label>
 <form>/plugins/weather-site-azilen/quote-ype</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -8,4 +8,9 @@
 <previewable>false</previewable>
 <noThumbnail>true</noThumbnail>
 <image-thumbnail></image-thumbnail>
+    <paths>
+        <includes>
+            <pattern>^/site/components/page/.*</pattern>
+        </includes>
+    </paths>
 </content-type>

@@ -11,24 +11,24 @@
     
     <!-- Loading third party fonts -->
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
-    <link href="/static-assets/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/static-assets/plugins/weather-site-azilen/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <!-- Loading main css file -->
-    <link rel="stylesheet" href="/static-assets/css/style.css">
+    <link rel="stylesheet" href="/static-assets/plugins/weather-site-azilen/css/style.css">
     
     <script src="/static-assets/js/jquery-1.11.1.min.js"></script>
 
   </head>
 
   <body>
-  	<#include "/templates/web/common/header.ftl" />
+  	<#include "/templates/plugins/weather-site-azilen/common/header.ftl" />
 
 		<!-- .site-header -->
 
-			<div class="hero" data-bg-image="/static-assets/images/banner.png">
+			<div class="hero" data-bg-image="/static-assets/plugins/weather-site-azilen/images/banner.png">
 				<div class="container">
 					<form action="#" class="find-location">
-						<input type="text" placeholder="Find your location..." id="cityName">
+						<input type="text" placeholder="Enter your location..." id="cityName">
 						<input type="submit" value="Find" id="btnSearchWeather">
 					</form>
 				</div>
@@ -72,13 +72,13 @@
             </div>
             
 			<!-- .site-footer -->
-            <#include "/templates/web/common/footer.ftl" />
+            <#include "/templates/plugins/weather-site-azilen/common/footer.ftl" />
 		
 		
-		<script src="/static-assets/js/jquery-1.11.1.min.js"></script>
-		<script src="/static-assets/js/plugins.js"></script>
-		<script src="/static-assets/js/app.js"></script>
-    	<script src="/static-assets/js/custom.js"></script>
+		<script src="/static-assets/plugins/weather-site-azilen/js/jquery-1.11.1.min.js"></script>
+		<script src="/static-assets/plugins/weather-site-azilen/js/plugins.js"></script>
+		<script src="/static-assets/plugins/weather-site-azilen/js/app.js"></script>
+    	<script src="/static-assets/plugins/weather-site-azilen/js/custom.js"></script>
         
 		<@studio.toolSupport/>	
 	</body>
@@ -178,10 +178,10 @@
           degreeDiv.append(numDiv).append(forecastIcon);
           
           var humiditySpan = $('<span>');
-          humiditySpan.html('<img src="/static-assets/images/icon-umberella.png" alt="">' + channel.atmosphere.humidity + '%');
+          humiditySpan.html('<img src="/static-assets/plugins/weather-site-azilen/images/icon-umberella.png" alt="">' + channel.atmosphere.humidity + '%');
           
           var windSpan = $('<span>');
-          windSpan.html('<img src="/static-assets/images/icon-wind.png" alt="">' + channel.wind.speed + 'km/h');
+          windSpan.html('<img src="/static-assets/plugins/weather-site-azilen/images/icon-wind.png" alt="">' + channel.wind.speed + 'km/h');
           
           forecastContent.append(locationDiv).append(degreeDiv).append(humiditySpan).append(windSpan);
           
@@ -206,7 +206,7 @@
               degree.html(weather.high + sup + 'C');
               
               var icon = $('<div>', { "class": "forecast-icon" });
-          	  icon.html('<img src="/static-assets/images/icons/' + getIconByWeatherText(weather.text) + '" alt="" width=48>');
+          	  icon.html('<img src="/static-assets/plugins/weather-site-azilen/images/icons/' + getIconByWeatherText(weather.text) + '" alt="" width=48>');
               
               content.append(icon).append(degree).append('<small>' + weather.low + sup + 'C');
               forecast.append(header).append(content);

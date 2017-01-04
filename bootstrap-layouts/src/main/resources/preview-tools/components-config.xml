@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>Layouts</label>
        <component>
            <label>Section Layout</label>
            <type>/plugins/bootstrap-layouts/section</type>

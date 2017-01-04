@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/entry</content-type>	<placeInNav>true</placeInNav>
-	<display-template>/templates/web/entry.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/entry</content-type>	<placeInNav>true</placeInNav>
+	<display-template>/templates/plugins/weather-site-azilen/entry.ftl</display-template>
 	<descriptor-mapper>hierarchical-mapper</descriptor-mapper>
 	<placeInNav>false</placeInNav>
 	<file-name>index.xml</file-name>

@@ -17,6 +17,6 @@
       </div>
     </div>
     
-    <p class="colophon">Copyright 2016 Azilen Technologies Pvt. Ltd. All rights reserved</p>
+    <p class="colophon">Copyright 2017 Azilen Technologies Pvt. Ltd. All rights reserved</p>
   </div>
 </footer> 

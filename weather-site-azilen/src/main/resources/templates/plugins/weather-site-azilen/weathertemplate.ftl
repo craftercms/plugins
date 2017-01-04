@@ -15,9 +15,9 @@
           </div>	
         </div>
         
-        <span><img src="static-assets/images/icon-umberella.png" alt="">${channel.atmosphere.humidity}%</span>
-        <span><img src="static-assets/images/icon-wind.png" alt="">${channel.wind.speed}km/h</span>
-        <#-- <span><img src="static-assets/images/icon-compass.png" alt="">East</span> -->
+        <span><img src="/static-assets/plugins/weather-site-azilen/images/icon-umberella.png" alt="">${channel.atmosphere.humidity}%</span>
+        <span><img src="/static-assets/plugins/weather-site-azilen/images/icon-wind.png" alt="">${channel.wind.speed}km/h</span>
+        <#-- <span><img src="/static-assets/plugins/weather-site-azilen/images/icon-compass.png" alt="">East</span> -->
       </div>
     </div>
     <#assign temp = 0 />
@@ -43,19 +43,19 @@
 </div>
 <#function getIconByWeatherText text>
   <#if text?contains("Sunny") || text?contains("Fair")>
-  	<#return "/static-assets/images/icons/icon-2.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-2.svg">
   <#elseif text?contains("Thunderstorms")>
-  	<#return "/static-assets/images/icons/icon-12.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-12.svg">
   <#elseif text?contains("Partly Cloudy")>
-  	<#return "/static-assets/images/icons/icon-3.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-3.svg">
   <#elseif text?contains("Cloudy")>
-  	<#return "/static-assets/images/icons/icon-5.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-5.svg">
   <#elseif text?contains("Showers")>
-  	<#return "/static-assets/images/icons/icon-10.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-10.svg">
   <#elseif text?contains("Haze")>
-  	<#return "/static-assets/images/icons/icon-7.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-7.svg">
   <#else>
-  	<#return "/static-assets/images/icons/icon-1.svg">
+  	<#return "/static-assets/plugins/weather-site-azilen/images/icons/icon-1.svg">
   </#if>  
 </#function>
 <script>

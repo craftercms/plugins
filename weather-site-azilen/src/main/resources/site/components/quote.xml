@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/quote-ype</content-type>	<display-template>/templates/web/quote-comp.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/quote-ype</content-type>
+	<display-template>/templates/plugins/weather-site-azilen/quote-comp.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>9be4</objectGroupId>
 	<objectId>9be4dd30-88a7-9864-a37b-b7de7385f73e</objectId>

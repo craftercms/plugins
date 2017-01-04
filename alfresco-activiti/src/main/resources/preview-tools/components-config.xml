@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>Forms and Workflow</label>
       <component>
                 <label>Alfresco Activiti Tasks</label>
                 <type>/plugins/alfresco-activiti/activiti-tasks</type>

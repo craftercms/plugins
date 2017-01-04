@@ -1,12 +1,12 @@
 <form>
-	<title>NewsPage</title>
+	<title>News Page</title>
 	<description></description>
 	<objectType>page</objectType>
 	<content-type>/plugins/weather-site-azilen/newspage</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/newsPage.ftl</value>
+			<value>/templates/plugins/weather-site-azilen/newsPage.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

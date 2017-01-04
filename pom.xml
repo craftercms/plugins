@@ -163,6 +163,7 @@
         <module>qr-code</module>
         <module>google-maps</module>
         <module>quote</module>
+        <module>appstore-update</module>
         <!--module>theme-canvas</module-->
 
         <!--

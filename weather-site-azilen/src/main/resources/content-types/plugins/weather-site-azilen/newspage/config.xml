@@ -1,5 +1,5 @@
 <content-type name="/plugins/weather-site-azilen/newspage" is-wcm-type="true">
-<label>NewsPage</label>
+<label>News Page</label>
 <form>/plugins/weather-site-azilen/newspage</form>
 <form-path>simple</form-path>
 <model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
@@ -8,4 +8,9 @@
 <previewable>true</previewable>
 <noThumbnail>true</noThumbnail>
 <image-thumbnail></image-thumbnail>
+    <paths>
+        <includes>
+            <pattern>^/site/website/.*</pattern>
+        </includes>
+    </paths>
 </content-type>

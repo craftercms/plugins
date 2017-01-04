@@ -12,7 +12,7 @@
 		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/entry.ftl</value>
+			<value>/templates/plugins/weather-site-azilen/entry.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

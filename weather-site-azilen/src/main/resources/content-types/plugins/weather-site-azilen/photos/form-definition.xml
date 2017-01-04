@@ -1,12 +1,12 @@
 <form>
-	<title>Photos</title>
+	<title>Photo Gallery Page</title>
 	<description></description>
 	<objectType>page</objectType>
 	<content-type>/page/photos</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/images.ftl</value>
+			<value>/templates/plugins/weather-site-azilen/images.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

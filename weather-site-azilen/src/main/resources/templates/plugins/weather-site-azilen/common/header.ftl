@@ -9,13 +9,13 @@
     
     <!-- Loading third party fonts -->
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
-    <link href="/static-assets/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/static-assets/plugins/weather-site-azilen/fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     <!-- Loading main css file -->
-    <link rel="stylesheet" href="/static-assets/css/style.css">
+    <link rel="stylesheet" href="/static-assets/plugins/weather-site-azilen/css/style.css">
     
     <script src="/static-assets/js/jquery-1.11.1.min.js"></script>
 
@@ -26,7 +26,7 @@
 			<div class="site-header">
 				<div class="container">
 					<a href="index.html" class="branding">
-						<img src="static-assets/images/logo.png" alt="" class="logo">
+						<img src="static-assets/plugins/weather-site-azilen/images/logo.png" alt="" class="logo">
 						<div class="logo-type">
 							<h1 class="site-title">Weather</h1>
 						</div>

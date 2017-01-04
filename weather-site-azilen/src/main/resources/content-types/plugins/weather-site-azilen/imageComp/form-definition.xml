@@ -1,12 +1,12 @@
 <form>
-	<title>imageComp</title>
+	<title>Photo Gallery Image</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/imageComp</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/img-template.ftl</value>
+			<value>/templates/plugins/weather-site-azilen/img-template.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

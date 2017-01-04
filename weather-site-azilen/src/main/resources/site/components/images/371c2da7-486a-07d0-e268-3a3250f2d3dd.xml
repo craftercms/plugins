@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/imageComp</content-type>
+	<display-template>/templates/web/img-template.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>371c</objectGroupId>
 	<objectId>371c2da7-486a-07d0-e268-3a3250f2d3dd</objectId>
@@ -9,7 +10,7 @@
 	<imageTitle>Forest</imageTitle>
 	<description>Colors</description>
 	<category>Forest</category>
-	<image>/static-assets/wallpaper/images/2.jpg</image>
+	<image>/static-assets/plugins/weather-site-azilen/wallpaper/images/2.jpg</image>
 	<createdDate>9/29/2016 5:56:19</createdDate>
 	<createdDate_dt>9/29/2016 5:56:19</createdDate_dt>
 	<lastModifiedDate>9/30/2016 10:10:44</lastModifiedDate>

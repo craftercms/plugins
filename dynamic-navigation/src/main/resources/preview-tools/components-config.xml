@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>Navigation</label>
       <component>
                 <label>Dynamic Navigation</label>
                 <type>/plugins/dynamic-navigation/dynamic-navigation</type>
