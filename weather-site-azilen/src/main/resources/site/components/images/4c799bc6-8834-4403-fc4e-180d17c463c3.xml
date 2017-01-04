@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/componentimageComp</content-type>
+	<display-template>/templates/plugins/weather-site-azilen/img-template.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>4c79</objectGroupId>
 	<objectId>4c799bc6-8834-4403-fc4e-180d17c463c3</objectId>
@@ -9,7 +10,7 @@
 	<imageTitle>India</imageTitle>
 	<description>Taj Mahal</description>
 	<category>India</category>
-	<image>/static-assets/wallpaper/images/6.jpg</image>
+	<image>/static-assets/plugins/weather-site-azilen/wallpaper/images/6.jpg</image>
 	<createdDate>9/29/2016 7:30:25</createdDate>
 	<createdDate_dt>9/29/2016 7:30:25</createdDate_dt>
 	<lastModifiedDate>9/30/2016 10:10:23</lastModifiedDate>

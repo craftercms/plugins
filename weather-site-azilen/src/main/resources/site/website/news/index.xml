@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/newspage</content-type>	<display-template>/templates/web/newsPage.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/newspage</content-type>
+	<display-template>/templates/plugins/weather-site-azilen/newsPage.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>f25e</objectGroupId>
 	<objectId>f25ef33f-9e14-df63-2165-5884e15e372a</objectId>

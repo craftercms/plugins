@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component>
-	<content-type>/component/imageComp</content-type>	<display-template>/templates/web/img-template.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/imageComp</content-type>
+	<display-template>/templates/plugins/weather-site-azilen/img-template.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>c0c2</objectGroupId>
 	<objectId>c0c262a8-84b0-002b-2d3d-679c0f31fc36</objectId>
@@ -9,7 +10,7 @@
 	<imageTitle>Mountain</imageTitle>
 	<description>Twilight</description>
 	<category>Mountain</category>
-	<image>/static-assets/wallpaper/images/14.jpg</image>
+	<image>/static-assets/plugins/weather-site-azilen/wallpaper/images/14.jpg</image>
 	<createdDate>9/29/2016 6:47:48</createdDate>
 	<createdDate_dt>9/29/2016 6:47:48</createdDate_dt>
 	<lastModifiedDate>9/30/2016 10:11:50</lastModifiedDate>

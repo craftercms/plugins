@@ -1,12 +1,12 @@
 <form>
-	<title>WeatherType</title>
+	<title>Weather Component</title>
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/plugins/weather-site-azilen/weathertype</content-type>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/weathertemplate.ftl</value>
+			<value>/templates/plugins/weather-site-azilen/weathertemplate.ftl</value>
 			<type>template</type>
 		</property>
 		<property>

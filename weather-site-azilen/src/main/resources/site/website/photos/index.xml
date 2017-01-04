@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-	<content-type>/page/photos</content-type>	<display-template>/templates/web/images.ftl</display-template>
+	<content-type>/plugins/weather-site-azilen/photos</content-type>
+	<display-template>/templates/plugins/weather-site-azilen/images.ftl</display-template>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>5a0d</objectGroupId>
 	<objectId>5a0dd6ab-de16-4bca-cd27-aaf3c9fe0f5e</objectId>

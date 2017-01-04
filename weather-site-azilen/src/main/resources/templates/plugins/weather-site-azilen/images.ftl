@@ -2,9 +2,9 @@
 <html lang="en">
 
 
-<#include "/templates/web/common/header.ftl" />
+<#include "/templates/plugins/weather-site-azilen/common/header.ftl" />
 <body>
-	<link rel="stylesheet" href="/static-assets/css/style.css">
+	<link rel="stylesheet" href="/static-assets/plugins/weather-site-azilen/css/style.css">
       <div class="container">
         <#list matches.images as image>
           <div class="col-md-6 col-sm-2">
@@ -28,9 +28,9 @@
   <div id="caption"></div>
 </div>
 
-	<script src="/static-assets/js/custom.js"></script>   
+	<script src="/static-assets/plugins/weather-site-azilen/js/custom.js"></script>
 </body>
 <script>
  $('#menuPhotos').addClass(" current-menu-item");
 </script>
-<#include "/templates/web/common/footer.ftl" />
+<#include "/templates/plugins/weather-site-azilen/common/footer.ftl" />
