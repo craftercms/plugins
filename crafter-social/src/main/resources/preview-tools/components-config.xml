@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>User Generated Content</label>
       <component>
                 <label>Crafter Social Comments</label>
                 <type>/plugins/crafter-social/crafter-social-comments</type>

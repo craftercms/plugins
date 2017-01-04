@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>Social Media</label>
       <component>
                 <label>Share This</label>
                 <type>/plugins/social-sharing/share-this</type>

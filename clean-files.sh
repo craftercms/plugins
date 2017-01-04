@@ -25,3 +25,4 @@ mv ./qr-code/target/qr-code.car.jar                          ./plugin-bins/qr-co
 mv ./google-maps/target/google-maps.car.jar                  ./plugin-bins/google-maps.car 
 mv ./quote/target/quote.car.jar                              ./plugin-bins/quote.car 
 mv ./theme-canvas/target/theme-canvas.car.jar                ./plugin-bins/theme-canvas.car 
+mv ./appstore-update/target/appstore-update.car.jar          ./plugin-bins/appstore-update.car 

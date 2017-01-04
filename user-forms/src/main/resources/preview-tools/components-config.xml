@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>Forms and Workflow</label>
       <component>
                 <label>User Form</label>
                 <type>/plugins/user-forms/user-form</type>

@@ -1,6 +1,6 @@
 <config>
    <category>
-      <label>General</label>
+      <label>Social Media</label>
       <component>
                 <label>Twitter Feed</label>
                 <type>/plugins/twitterfeed/twitterfeed</type>
